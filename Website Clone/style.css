@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(2, 0, 36);
+    background-image: url(Netflix.jpg);
+    background-repeat: repeat;
+    color: antiquewhite;
+}
+
+.navigation {
+    box-sizing: border-box;
+
+    background-color:#fff;
+    color: rgb(245, 239, 239);
+    border-width: 20px;
+    border-style: solid;
+    padding: 2px;
+}
+
+.Tab.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 24px;
+    background-color: transparent;
+    z-index: 500;
+}
+.Container{
+    justify-content: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.Main-Text {
+    position: relative;
+    border-bottom: 8px ;
+    padding: 50px;
+    margin-bottom: 0;
+    background: 0;
+    color: #fff;
+}
+
+.Header {
+    background-color: transparent;
+    position: relative;
+    max-width: 1920px;
+    margin: auto;
+    
+}

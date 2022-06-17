@@ -6,13 +6,18 @@ body {
 }
 
 .navigation {
+    display:flex;
     box-sizing: border-box;
-
-    background-color:#fff;
     color: rgb(245, 239, 239);
-    border-width: 20px;
-    border-style: solid;
-    padding: 2px;
+    align-items: center;  
+}
+
+.navigation a { 
+    padding-left:px;
+}
+
+.nagivation img {
+    padding-left: 200px;
 }
 
 .Tab.navbar {
@@ -48,5 +53,34 @@ body {
     position: relative;
     max-width: 1920px;
     margin: auto;
-    
+
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 1750px;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+  }
+
+  .Textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.font {
+    font-family: 'Courier New', Courier, monospace;
 }
